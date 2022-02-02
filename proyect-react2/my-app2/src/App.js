@@ -21,10 +21,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
     
       <section>
 <Componente mesage="hola soy un componente desde una funcion expresada"/>
