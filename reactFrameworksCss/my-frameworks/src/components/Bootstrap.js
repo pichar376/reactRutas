@@ -1,32 +1,7 @@
 import React from 'react';
 
-function VentanaModal(){
-return(
-  <>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div className="modal-body">
-        ...
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" className="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-</>
-)
-}
-function NavBar(){
+
+/*function NavBar(){
   return(
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
@@ -68,13 +43,13 @@ function NavBar(){
 
   )
 }
-
+*/
 export default  function Bootstrap(){
   return(
     <>
     <h2>Bootstrap</h2>
-    <NavBar/>
-    <VentanaModal/>
+  
+    
     
     </>
 
