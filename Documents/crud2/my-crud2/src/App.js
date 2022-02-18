@@ -6,9 +6,9 @@ function App() {
     <h1>crud
       </h1>
       <hr/>
-      <Crud/>
-      <hr/>
       <CrudApi/>
+      <hr/>
+      <Crud/>
       </div>
 
   );

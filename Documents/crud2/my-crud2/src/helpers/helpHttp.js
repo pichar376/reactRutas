@@ -16,7 +16,7 @@ options.body=JSON.stringify(options.body)||false;
 
 if(!options.body) delete options.body;
 
-//console.log(options);
+console.log(options);
 
 setTimeout(() => 
   controller.abort()
