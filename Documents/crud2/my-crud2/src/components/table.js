@@ -14,7 +14,7 @@ function Table({data,setDataToEdit,deleteData}) {
         </tr>
       </thead>
       <tbody>
-      {data.length===0?<tr><td colpan="3">sin datos</td></tr>:data.map(el=><CrudTableRow key={el.id}el={el} setDataToEdit={setDataToEdit} deleteData={deleteData}/>)}
+      {data.length>0?data.map(el=><CrudTableRow key={el.id}el={el} setDataToEdit={setDataToEdit} deleteData={deleteData}/>):(<tr><td colpan="3">sin datos</td></tr>)}
     </tbody>
     </table>
   </div>

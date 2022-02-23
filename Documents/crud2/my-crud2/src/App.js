@@ -1,10 +1,11 @@
 import Crud from "./components/crud"
 import CrudApi from "./components/CrudApi"
+import SongSearch from "./components/SongSearch";
 function App() {
   return (
     <div>
-    <h1>crud
-      </h1>
+      <SongSearch/>
+      <hr/>
       <hr/>
       <CrudApi/>
       <hr/>
