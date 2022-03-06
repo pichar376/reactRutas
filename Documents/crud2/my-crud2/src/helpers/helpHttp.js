@@ -29,7 +29,6 @@ return fetch(endPoint,options).then((res)=>res.ok?res.json():Promise.reject({err
 .catch((err)=>err)
 };
 
-
 const get=(url,options={})=>cumstomFetch(url,options);
 
 const post=(url,options)=>{

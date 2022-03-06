@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function Mensaje() {
-  return ( <>
-  <h1>Mensaje</h1>
-  </> );
+function Mensaje({msg}) {
+  return ( <div>
+  <h1>{msg}</h1>
+  </div> );
 }
 
 export default Mensaje;

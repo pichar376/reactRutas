@@ -1,11 +1,16 @@
 import React from 'react';
 import SongArtist from './SongArtist';
 import SongLyrics from "./SongLyrics";
-const SongDetails = ({Search,lyric,bio}) => {
+import Mensaje from "./Mensaje"
+const SongDetails = ({search,lyric,bio}) => {
+  if(!lyric||!bio)return null;
   return ( <>
-  <h2>detalles</h2>
-  <SongArtist/>
-  <SongLyrics/>
+
+  {lyric.err||lyric.name||lyric.error ==="AbortError"?(<Mensaje msg={`no se encontro la cancion ${search.song}`}/>):(<SongLyrics lyric={lyric}title={search.song}/>)}
+  {bio.artists?(
+    <SongArtist search={search} artists={bio.artists[0]}/>
+  ):(<Mensaje msg={`Error en la busqueda de el artista ${search.song}`}/>)}
+  
   </> );
 }
  
