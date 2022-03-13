@@ -1,5 +1,5 @@
 body{
-  background-color: red;
+  background-color:#eee;
 }
 
 html{
@@ -12,7 +12,9 @@ html{
 *:before{
   box-sizing: inherit;
 }
-input[type="text"]{
+input[type="text"],
+input[type="email"],
+textarea{
 border:thin solid #dedede;
 border-radius:0.25rem;
 padding:0.75rem;
@@ -23,6 +25,11 @@ width:100%;
 font-size:1rem;
 line-height:1;
 background-color: transparent;
+}
+
+textarea{
+  font-family: inherit;
+  resize: none;
 }
 button,
 input[type="submit"],
@@ -82,5 +89,15 @@ td{
     gap:2rem;
     color:white
   }
+
+}
+.msg{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  background-color: green;
+  height: 5rem;
+  color:white;
 
 }
