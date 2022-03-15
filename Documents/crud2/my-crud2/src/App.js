@@ -5,11 +5,11 @@ import Hola from"./components/Hola"
 import SelectsAnidados from "./components/SelectsAnidados";
 import ContactForm from "./components/ContactForm";
 import Input from "./components/Input";
-
+import Modals from "./components/Modals";
 function App() {
   return (
     <div>
-<Input/>
+<Modals/>
 <hr/>
 <ContactForm/>
 <hr/>
