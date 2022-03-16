@@ -89,7 +89,7 @@ let options={body:data,headers:{"content-type":"application/json"}}
 }
   return ( 
     <div>
-    <h1>Crud Api</h1>
+    <h1>Crud Api detalles pendientes</h1>
     <article className="grid-1-2">
     <Form createData={createData} updateData={updateData} dataToEdit={dataToEdit} setDataToEdit={setDataToEdit}/>
     {loading&&<Loader/>}

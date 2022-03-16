@@ -1,12 +1,18 @@
 import { useModal } from "../hooks/useModdal";
 import ContactForm from "./ContactForm";
+import Input from "./Input";
 import Modal from "./Modal";
+import ModalPortal from "./ModalPortal";
 import SongSearch from "./SongSearch";
+
 const Modals = () => {
   const [isOpenModal1,openModal1,closeModal1]=useModal(true);
   const [isOpenModal2,openModal2,closeModal2]=useModal(false);
   const [isOpenModalForm,openModalform,closeModalForm]=useModal(false);
   const [isOpenSong,openModalSong,closeModalSong]=useModal(false);
+  const [isOpenModalPortal,openModalPortal,closeModalPortal]=useModal(false);
+
+
 
   return ( 
     <div>
@@ -24,8 +30,6 @@ const Modals = () => {
       <p>otro modal</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique at quaerat officiis voluptas officia porro perferendis architecto illum velit, ullam molestiae quia delectus consectetur ea? Fugiat ratione maiores et? Consequatur?</p>
   <img src="https://placeimg.com/400/400/nature"alt="Nature"/>
-    
-  
   </Modal>
   <button onClick={openModalform}>formulario</button>
   <Modal isOpen={isOpenModalForm}closeModal={closeModalForm}>
@@ -33,12 +37,16 @@ const Modals = () => {
   </Modal>
   <button onClick={openModalSong}>buscador canciones</button>
   <Modal isOpen={isOpenSong}closeModal={closeModalSong}>
-   <SongSearch/>
-
+   
   </Modal>
-
-
-    </div>
+<button onClick={openModalPortal}>modal portal</button>
+  <ModalPortal isOpen={isOpenModalPortal} closeModal={closeModalPortal}>
+        <h3>Modal Portal</h3>
+      <p>otro modal</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique at quaerat officiis voluptas officia porro perferendis architecto illum velit, ullam molestiae quia delectus consectetur ea? Fugiat ratione maiores et? Consequatur?</p>
+  <img src="https://placeimg.com/400/400/tec"alt="tec"/>
+  </ModalPortal>
+</div>
    );
 }
  

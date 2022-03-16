@@ -6,16 +6,6 @@
       "constelacion": "fenix"
     },
     {
-      "id": 6,
-      "name": "mu",
-      "constelacion": "aries"
-    },
-    {
-      "id": 7,
-      "name": "aioria",
-      "constelacion": "leo"
-    },
-    {
       "id": 8
     },
     {
@@ -47,6 +37,16 @@
       "name": "n",
       "constelacion": "n",
       "id": 1645424506524
+    },
+    {
+      "name": "scarlett",
+      "constelacion": "cancer",
+      "id": 1647405411945
+    },
+    {
+      "name": "ernesto",
+      "constelacion": "pegaso",
+      "id": 1647405438694
     }
   ]
 }
