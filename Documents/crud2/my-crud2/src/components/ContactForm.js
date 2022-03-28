@@ -1,4 +1,5 @@
 
+import { BrowserRouter as Router, Route,Switch } from "react-router-dom";
 import { useForm } from "../hooks/useForm";
 import Loader from "./Loader";
 import Mensaje from "./Mensaje";
@@ -9,7 +10,6 @@ email:"",
 subject:"",
 coments:"",
 }
-
  const validationsForm=(form)=>{
    let errors={}
 let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
@@ -55,6 +55,9 @@ const ContactForm = () => {
   
   return ( 
     <div>
+
+      
+      
     <h3>Formulario de contacto</h3>
      <form onSubmit={handleSubmit}>
        <input type="text"name="name"placeholder="escribe tu nombre"onChange={handleChange}onBlur={handleBlur}value={form.name}required/>

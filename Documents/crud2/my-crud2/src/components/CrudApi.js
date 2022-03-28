@@ -47,7 +47,6 @@ helpHttp().get(url).then((res)=>{
     api.post(url,options).then((res)=>{console.log( res)
      if (!res.err) {
      setDb(...db,res)
-      setError(null)
     }else{
     setError(res)
     }

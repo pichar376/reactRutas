@@ -51,7 +51,7 @@ const handleReset=(e)=>{
     <h2>{dataToEdit?"Editar caballero":"Agregar Caballero"}</h2>
     <input type="text"placeholder="nombre"name="name"onChange={handleChange}value={form.name}/>
     <input type="text"placeholder="constelacion"name="constelacion"onChange={handleChange} value={form.constelacion}/>
-    <input type="submit"value="enviar"/><input type="reset"value="limpiar"onClick={handleReset}/>
+    <input type="submit"value="enviar"/><input type="reset"value="limpiar"onClick={handleSubmit}/>
   </form>
   
   </div>
