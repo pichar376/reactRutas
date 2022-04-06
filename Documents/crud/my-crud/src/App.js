@@ -1,12 +1,12 @@
 
-import Crud from "./components/crud"
+import CrudApi from "./components/CrudApi"
+
+
 function App() {
   return (
     <div>
-    <h1>crud
-      </h1>
+      <CrudApi/>
       <hr/>
-      <Crud/>
       </div>
 
   );

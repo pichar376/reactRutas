@@ -69,3 +69,9 @@ td{
   }
 
 }
+.active{
+  color: #61fb61;
+}
+a{
+  margin: 2rem;
+}
