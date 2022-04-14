@@ -1,8 +1,9 @@
 import React from 'react';
 import SongArtist from './SongArtist';
 import SongLyrics from "./SongLyrics";
-import Mensaje from "./Mensaje"
+import Mensaje from "./Message"
 const SongDetails = ({search,lyric,bio}) => {
+  console.log(search,bio,lyric)
   if(!lyric||!bio)return null;
   return ( <>
 

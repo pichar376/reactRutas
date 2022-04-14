@@ -1,4 +1,4 @@
-import { useModal } from "../hooks/useModdal";
+import { useModal } from "../hooks/useModal";
 import ContactForm from "./ContactForm";
 import Input from "./Input";
 import Modal from "./Modal";

@@ -1,5 +1,5 @@
 import React from 'react';
-import Mensaje from './Mensaje';
+import Mensaje from './Message';
 
 const Input = () => {
   return ( <>

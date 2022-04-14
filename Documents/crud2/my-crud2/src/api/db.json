@@ -2,16 +2,8 @@
   "santos": [
     {
       "id": 5,
-      "name": "iky",
+      "name": "i",
       "constelacion": "fenix"
-    },
-    {
-      "id": 8
-    },
-    {
-      "name": "ernesto",
-      "constelacion": "escorpio",
-      "id": 1645423682472
     },
     {
       "name": "kjddjj",
@@ -64,14 +56,34 @@
       "id": 1648415429608
     },
     {
-      "name": "nuevo",
+      "name": "nu",
       "constelacion": "hola",
       "id": 1648421466565
     },
     {
+      "name": "ernesto",
+      "constelacion": "kjjjd",
+      "id": 1648445602068
+    },
+    {
+      "name": "ernesto",
+      "constelacion": "hola",
+      "id": 1648446416304
+    },
+    {
+      "name": "ernesto",
+      "constelacion": "pe",
+      "id": 1648446491167
+    },
+    {
       "name": "scarlett",
-      "constelacion": "holas",
-      "id": 1648421530313
+      "constelacion": "aries",
+      "id": 1648447077309
+    },
+    {
+      "name": "ernesto",
+      "constelacion": "escorpio",
+      "id": 1648449144085
     }
   ]
 }

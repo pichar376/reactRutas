@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Route,Switch } from "react-router-dom";
 import { useForm } from "../hooks/useForm";
 import Loader from "./Loader";
-import Mensaje from "./Mensaje";
+import Mensaje from "./Message";
 
 const initialForm={
 name:"",

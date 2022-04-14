@@ -1,28 +1,28 @@
-import Crud from "./components/crud"
+
 import CrudApi from "./components/CrudApi"
+
 import SongSearch from "./components/SongSearch";
-import Hola from"./components/Hola"
 import SelectsAnidados from "./components/SelectsAnidados";
 import ContactForm from "./components/ContactForm";
-import Input from "./components/Input";
 import Modals from "./components/Modals";
+import CrudApp from "./components/CrudApp";
+
 function App() {
   return (
     <div>
-<Modals/>
+{/* <Modals/>
 <hr/>
 <ContactForm/>
 <hr/>
-      <SelectsAnidados/>
-      <hr/>
-    <Hola/>
-      <hr/>
+       <SelectsAnidados/> 
+      <hr/> */}
       <SongSearch/>
-      <hr/>
+      {/* <hr/>
       <hr/>
       <CrudApi/>
       <hr/>
-      <Crud/>
+      <CrudApp/> */}
+      
       </div>
 
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import useFetch from '../hooks/useFetch';
 import Loader from "./Loader"
-import Mensaje from "./Mensaje"
+import Mensaje from "./Message"
 const SelectList = ({title,url,handleChange}) => {
   const {data,error,loading}=useFetch(url);
  

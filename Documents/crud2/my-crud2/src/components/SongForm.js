@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import SongTableRow from './SongTableRow';
 const initialForm={
   artist:"",
   song:"",
 }
 
-const SongForm = ({handleSearch}) => {
+const SongForm = ({handleSearch,handleSaveSong}) => {
   const [form, setForm] = useState(initialForm);
 
   const handleChange=(e)=>{
@@ -32,6 +33,7 @@ setForm(initialForm)
     value={form.song}/>
     <input type="submit"value="enviar"/>
   </form>
+  <button onClick={handleSaveSong}>guardar</button>
 </div>
 
 
